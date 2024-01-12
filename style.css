@@ -1,0 +1,52 @@
+.table{
+	display:table;
+	width:400px;
+    margin:auto;
+	text-align:center;
+	margin-top:130px;
+}
+.row{
+	display:table-row;
+}
+.col{
+	display:table-cell;
+	border:2px solid  blue;
+	padding:10px 14px;
+}
+.table-header{
+	display:table-header-group;
+	font-weight:bold;
+	background-color:pink;
+	color:black;
+	font-size:17px;
+}
+.table-footer{
+	display:table-footer-group;
+	background-color:white;
+}
+.caption{
+	display:table-caption;
+	text-align:center;
+	font-weight:bold;
+	color:brown;
+	padding:10px;
+	font-size:18px;
+}
+.colgroup{
+	display:table-column-group;
+}
+.tbl-col{
+	display:table-column;
+}
+.col2{
+	width:130px;
+	background-color:bisque;
+}
+.col4{
+	width:130px;
+	background-color:bisque;
+}
+.rowgroup{
+	display:table-row-group;
+	font-family:cambria;
+}
